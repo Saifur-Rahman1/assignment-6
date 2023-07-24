@@ -1,3 +1,4 @@
+
 const imagesArea = document.querySelector('.images');
 const gallery = document.querySelector('.gallery');
 const galleryHeader = document.querySelector('.gallery-header');
@@ -8,9 +9,6 @@ const sliderContainer = document.getElementById('sliders');
 // selected image 
 let sliders = [];
 
-// If this key doesn't work
-// Find the name in the url and go to their website
-// to create your own api key
 const KEY = '15674931-a9d714b6e9d654524df198e00&q';
 // show images 
 const showImages = (images) => {
